@@ -4,7 +4,7 @@ Read from the installed package metadata on 2026-11-17. Model weights are licens
 
 | Component | Version | Code license | Weights / notes | Blocks sharing with students or other labs? |
 | --- | --- | --- | --- | --- |
-| paperx (this repo) | 0.1.0 | Not yet chosen | | Pick one (MIT or Apache-2.0 fit the dependencies below) |
+| paperx (this repo) | 0.1.0 | MIT (see `LICENSE`) | | No |
 | pypdfium2 (rendering, text) | 5.15.2 | BSD-3-Clause / Apache-2.0 | PDFium is BSD | No. Chosen over PyMuPDF to avoid AGPL |
 | Docling, docling-core, docling-ibm-models, docling-parse | 2.150.1 | MIT | Layout (Heron), TableFormer, CodeFormulaV2 models from `docling-project` on Hugging Face. Check each model card | No, pending model-card check |
 | MinerU | 4.2.3 | "MinerU Open Source License": Apache-2.0 plus extra terms | A commercial license is needed above 100M monthly users or US$20M monthly revenue. Anyone offering it as an online service must credit MinerU visibly | No for lab and student use. Attribution applies only if paperx is offered as a hosted service |

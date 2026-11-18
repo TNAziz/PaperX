@@ -140,4 +140,4 @@ LICENSES.md      third-party licenses and model-weight terms
 
 ## License
 
-The license for PaperX's own code has not been chosen yet. Third-party components keep their own licenses; see [LICENSES.md](LICENSES.md). In particular, MinerU's license adds usage thresholds to Apache-2.0, and Marker's model weights have separate terms.
+PaperX's own code is released under the [MIT License](LICENSE). Third-party components keep their own licenses; see [LICENSES.md](LICENSES.md). In particular, MinerU's license adds usage thresholds to Apache-2.0, and Marker's model weights have separate terms.
