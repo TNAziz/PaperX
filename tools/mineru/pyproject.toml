@@ -1,0 +1,19 @@
+# Isolated environment for the mineru parser. paperx calls it as a subprocess
+# so each parser can pin its own torch/transformers without conflicts.
+[project]
+name = "paperx-tool-mineru"
+version = "0.0.0"
+requires-python = ">=3.11,<3.13"
+dependencies = ["mineru[core]", "torch", "torchvision"]
+
+[tool.uv]
+package = false
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu126" }
+torchvision = { index = "pytorch-cu126" }

@@ -1,0 +1,51 @@
+{
+ "caption": "Figure 3. Observed and modeled dissolved oxygen downstream of the outfall.",
+ "panels": [
+  {
+   "y_scale": "linear",
+   "y_span": [
+    0,
+    10
+   ],
+   "x_span": [
+    0,
+    60
+   ],
+   "series": [
+    {
+     "name": "Observed",
+     "kind": "points",
+     "x": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      40,
+      50,
+      60
+     ],
+     "y": [
+      9.0,
+      5.97,
+      5.8,
+      6.27,
+      6.94,
+      7.35,
+      7.89,
+      8.59,
+      8.59,
+      8.72
+     ]
+    },
+    {
+     "name": "Streeter-Phelps model",
+     "kind": "curve",
+     "fn": "do_sag"
+    }
+   ]
+  }
+ ]
+}

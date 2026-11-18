@@ -1,0 +1,212 @@
+{
+ "steps": [
+  {
+   "round": 0,
+   "check": "pass",
+   "reason": "Panel (a): all 12 monthly flow points and their error bars match the original (about 14.8, 16.4, 17.9, 17.1, 16.3, 13.2, 9.9, 7.9, 5.9, 6.9, 7.8, 10.7), on matching linear axes (y 0-25). Panel (b): all five bars match (S1 about 3.4, S2 5.9, S3 2.2, S4 7.6, S5 4.8), y 0-10 linear, same site order. No missing or extra points.",
+   "errors": []
+  }
+ ],
+ "classification": {
+  "kind": "chart",
+  "chart_types": [
+   "line",
+   "bar"
+  ],
+  "n_panels": 2,
+  "extractable": true,
+  "reason": "Two panels. (a) is a line chart of monthly mean flow with error bars, plotted against linear axes: Flow in m\u00b3/s from 0 to 25, and Month from 0 to 12.5. (b) is a bar chart of TN load in kg/d on a linear axis from 0 to 10, for categorical sites S1\u2013S5. Both panels have labeled ticks, so the values can be read off."
+ },
+ "data": {
+  "panels": [
+   {
+    "panel": "a",
+    "title": "Monthly mean flow with standard deviation",
+    "chart_type": "line_scatter",
+    "axes": [
+     {
+      "id": "x1",
+      "direction": "x",
+      "position": "bottom",
+      "label": "Month",
+      "unit": "",
+      "scale": "linear",
+      "min": 0,
+      "max": 13,
+      "inverted": false
+     },
+     {
+      "id": "y1",
+      "direction": "y",
+      "position": "left",
+      "label": "Flow",
+      "unit": "m3/s",
+      "scale": "linear",
+      "min": 0,
+      "max": 25,
+      "inverted": false
+     }
+    ],
+    "series": [
+     {
+      "name": "series 1",
+      "x_axis": "x1",
+      "y_axis": "y1",
+      "points": [
+       {
+        "x": "1",
+        "y": 14.8,
+        "y_low": 13.7,
+        "y_high": 15.8
+       },
+       {
+        "x": "2",
+        "y": 16.4,
+        "y_low": 15.8,
+        "y_high": 16.9
+       },
+       {
+        "x": "3",
+        "y": 18,
+        "y_low": 17.3,
+        "y_high": 18.7
+       },
+       {
+        "x": "4",
+        "y": 17.2,
+        "y_low": 15.7,
+        "y_high": 18.8
+       },
+       {
+        "x": "5",
+        "y": 16.3,
+        "y_low": 15,
+        "y_high": 17.6
+       },
+       {
+        "x": "6",
+        "y": 13.2,
+        "y_low": 12.2,
+        "y_high": 14.2
+       },
+       {
+        "x": "7",
+        "y": 9.9,
+        "y_low": 8.8,
+        "y_high": 10.9
+       },
+       {
+        "x": "8",
+        "y": 7.9,
+        "y_low": 6.4,
+        "y_high": 9.4
+       },
+       {
+        "x": "9",
+        "y": 5.8,
+        "y_low": 5,
+        "y_high": 6.8
+       },
+       {
+        "x": "10",
+        "y": 6.9,
+        "y_low": 5.7,
+        "y_high": 8
+       },
+       {
+        "x": "11",
+        "y": 7.8,
+        "y_low": 6.5,
+        "y_high": 9.1
+       },
+       {
+        "x": "12",
+        "y": 10.7,
+        "y_low": 9.7,
+        "y_high": 11.7
+       }
+      ]
+     }
+    ],
+    "read_precision": "\u00b10.2 on y; x values are integer months",
+    "notes": "Error bars show \u00b11 standard deviation; the bar ends were read from the pixel positions of the caps."
+   },
+   {
+    "panel": "b",
+    "title": "Total nitrogen load by site",
+    "chart_type": "bar",
+    "axes": [
+     {
+      "id": "x1",
+      "direction": "x",
+      "position": "bottom",
+      "label": "",
+      "unit": "",
+      "scale": "categorical",
+      "min": null,
+      "max": null,
+      "inverted": false
+     },
+     {
+      "id": "y1",
+      "direction": "y",
+      "position": "left",
+      "label": "TN load",
+      "unit": "kg/d",
+      "scale": "linear",
+      "min": 0,
+      "max": 10,
+      "inverted": false
+     }
+    ],
+    "series": [
+     {
+      "name": "TN load",
+      "x_axis": "x1",
+      "y_axis": "y1",
+      "points": [
+       {
+        "x": "S1",
+        "y": 3.4,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "S2",
+        "y": 5.9,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "S3",
+        "y": 2.2,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "S4",
+        "y": 7.6,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "S5",
+        "y": 4.8,
+        "y_low": null,
+        "y_high": null
+       }
+      ]
+     }
+    ],
+    "read_precision": "\u00b10.1 on y",
+    "notes": "No error bars are drawn."
+   }
+  ]
+ },
+ "verdict": {
+  "status": "pass",
+  "reason": "Panel (a): all 12 monthly flow points and their error bars match the original (about 14.8, 16.4, 17.9, 17.1, 16.3, 13.2, 9.9, 7.9, 5.9, 6.9, 7.8, 10.7), on matching linear axes (y 0-25). Panel (b): all five bars match (S1 about 3.4, S2 5.9, S3 2.2, S4 7.6, S5 4.8), y 0-10 linear, same site order. No missing or extra points.",
+  "errors": []
+ },
+ "status": "pass"
+}

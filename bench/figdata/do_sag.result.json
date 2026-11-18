@@ -1,0 +1,281 @@
+{
+ "steps": [
+  {
+   "round": 0,
+   "check": "pass",
+   "reason": "Axes match (linear, x 0-60 km, y 0-10 mg/L, same direction; no error bars in either figure). Observed: all 10 points (0,5,10,15,20,25,30,40,50,60 km) match within ~0.02 mg/L. Streeter-Phelps model: sampled points lie on the original curve (start 9.0, minimum ~5.72 near 7-8 km, ~7.0 at 20 km, ~7.87 at 30 km, ~8.4 at 40 km, ~8.8 at 60 km), all within tolerance. The value near 2 km on the steep drop is the hardest to read but looks consistent.",
+   "errors": []
+  }
+ ],
+ "classification": {
+  "kind": "chart",
+  "chart_types": [
+   "scatter",
+   "line"
+  ],
+  "n_panels": 1,
+  "extractable": true,
+  "reason": "This is a single-panel chart. It plots observed dissolved oxygen as scatter points and a Streeter-Phelps model as a line. Both are drawn against labeled linear axes: distance downstream from 0 to 60 km, and dissolved oxygen from 0 to 10 mg/L. The values can be read from the tick marks."
+ },
+ "data": {
+  "panels": [
+   {
+    "panel": "single",
+    "title": "Observed and modeled dissolved oxygen downstream of the outfall",
+    "chart_type": "line_scatter",
+    "axes": [
+     {
+      "id": "x1",
+      "direction": "x",
+      "position": "bottom",
+      "label": "Distance downstream",
+      "unit": "km",
+      "scale": "linear",
+      "min": 0,
+      "max": 60,
+      "inverted": false
+     },
+     {
+      "id": "y1",
+      "direction": "y",
+      "position": "left",
+      "label": "Dissolved oxygen",
+      "unit": "mg/L",
+      "scale": "linear",
+      "min": 0,
+      "max": 10,
+      "inverted": false
+     }
+    ],
+    "series": [
+     {
+      "name": "Observed",
+      "x_axis": "x1",
+      "y_axis": "y1",
+      "points": [
+       {
+        "x": "0",
+        "y": 9,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "5",
+        "y": 5.96,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "10",
+        "y": 5.78,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "15",
+        "y": 6.28,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "20",
+        "y": 6.93,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "25",
+        "y": 7.34,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "30",
+        "y": 7.89,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "40",
+        "y": 8.59,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "50",
+        "y": 8.59,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "60",
+        "y": 8.72,
+        "y_low": null,
+        "y_high": null
+       }
+      ]
+     },
+     {
+      "name": "Streeter-Phelps model",
+      "x_axis": "x1",
+      "y_axis": "y1",
+      "points": [
+       {
+        "x": "0",
+        "y": 9,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "0.5",
+        "y": 8.4,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "1",
+        "y": 7.85,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "2",
+        "y": 7,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "3",
+        "y": 6.45,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "4",
+        "y": 6.1,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "5",
+        "y": 5.92,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "6",
+        "y": 5.8,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "7",
+        "y": 5.74,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "8",
+        "y": 5.72,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "9",
+        "y": 5.74,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "10",
+        "y": 5.8,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "12",
+        "y": 6,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "15",
+        "y": 6.42,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "18",
+        "y": 6.8,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "20",
+        "y": 7.02,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "25",
+        "y": 7.48,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "30",
+        "y": 7.85,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "35",
+        "y": 8.15,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "40",
+        "y": 8.38,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "45",
+        "y": 8.55,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "50",
+        "y": 8.67,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "55",
+        "y": 8.76,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "60",
+        "y": 8.82,
+        "y_low": null,
+        "y_high": null
+       }
+      ]
+     }
+    ],
+    "read_precision": "\u00b10.08 mg/L on y, \u00b10.3 km on x",
+    "notes": "The model curve was sampled from the drawn line. Its steep drop between 0 and 3 km is the least precise part. The curve's lowest point is about 5.7 mg/L at roughly 8 km. The observed points at 0 and 60 km sit on the plot edges and overlap the curve."
+   }
+  ]
+ },
+ "verdict": {
+  "status": "pass",
+  "reason": "Axes match (linear, x 0-60 km, y 0-10 mg/L, same direction; no error bars in either figure). Observed: all 10 points (0,5,10,15,20,25,30,40,50,60 km) match within ~0.02 mg/L. Streeter-Phelps model: sampled points lie on the original curve (start 9.0, minimum ~5.72 near 7-8 km, ~7.0 at 20 km, ~7.87 at 30 km, ~8.4 at 40 km, ~8.8 at 60 km), all within tolerance. The value near 2 km on the steep drop is the hardest to read but looks consistent.",
+  "errors": []
+ },
+ "status": "pass"
+}

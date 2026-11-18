@@ -1,0 +1,443 @@
+{
+ "steps": [
+  {
+   "round": 0,
+   "check": "pass",
+   "reason": "All three reactor series sampled on the right sit on the original curves within tolerance. The axes match: both are linear, with time from 0 to 24 h and biomass from 0 to 10 g/L. Key features match: Reactor 1 levels off near 8, Reactor 2 peaks at about 7.35 near t=16.5 and dips to about 6.85 near t=22, and Reactor 3 has the S-shaped start, crosses Reactor 2 near t=5 and ends at about 8.2. No series are missing or extra, and neither plot has error bars.",
+   "errors": []
+  }
+ ],
+ "classification": {
+  "kind": "chart",
+  "chart_types": [
+   "line"
+  ],
+  "n_panels": 1,
+  "extractable": true,
+  "reason": "Single-panel line chart showing biomass (g/L) over time (h) for three reactors (solid, dashed and dotted lines). Both axes are linear and labeled: x has ticks from 0 to 20 and the data runs to about 24 h; y has ticks from 0 to 10. The values can be read against these ticks."
+ },
+ "data": {
+  "panels": [
+   {
+    "panel": "single",
+    "title": "Figure 7. Biomass growth in three reactors.",
+    "chart_type": "line",
+    "axes": [
+     {
+      "id": "x1",
+      "direction": "x",
+      "position": "bottom",
+      "label": "Time",
+      "unit": "h",
+      "scale": "linear",
+      "min": 0,
+      "max": 24,
+      "inverted": false
+     },
+     {
+      "id": "y1",
+      "direction": "y",
+      "position": "left",
+      "label": "Biomass",
+      "unit": "g/L",
+      "scale": "linear",
+      "min": 0,
+      "max": 10,
+      "inverted": false
+     }
+    ],
+    "series": [
+     {
+      "name": "Reactor 1",
+      "x_axis": "x1",
+      "y_axis": "y1",
+      "points": [
+       {
+        "x": "0",
+        "y": 2,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "1",
+        "y": 3.3,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "2",
+        "y": 4.3,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "3",
+        "y": 5.1,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "4",
+        "y": 5.75,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "5",
+        "y": 6.2,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "6",
+        "y": 6.6,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "7",
+        "y": 6.9,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "8",
+        "y": 7.15,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "9",
+        "y": 7.35,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "10",
+        "y": 7.5,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "12",
+        "y": 7.7,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "14",
+        "y": 7.83,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "16",
+        "y": 7.9,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "18",
+        "y": 7.95,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "20",
+        "y": 7.97,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "22",
+        "y": 7.99,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "24",
+        "y": 8,
+        "y_low": null,
+        "y_high": null
+       }
+      ]
+     },
+     {
+      "name": "Reactor 2",
+      "x_axis": "x1",
+      "y_axis": "y1",
+      "points": [
+       {
+        "x": "0",
+        "y": 2,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "1",
+        "y": 2.9,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "2",
+        "y": 3.6,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "3",
+        "y": 4.25,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "4",
+        "y": 4.7,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "5",
+        "y": 5,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "6",
+        "y": 5.2,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "7",
+        "y": 5.3,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "8",
+        "y": 5.4,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "9",
+        "y": 5.55,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "10",
+        "y": 5.8,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "11",
+        "y": 6.1,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "12",
+        "y": 6.45,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "13",
+        "y": 6.8,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "14",
+        "y": 7.05,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "15",
+        "y": 7.25,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "16.5",
+        "y": 7.35,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "18",
+        "y": 7.25,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "19",
+        "y": 7.1,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "20",
+        "y": 6.97,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "21",
+        "y": 6.88,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "22",
+        "y": 6.85,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "23",
+        "y": 6.92,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "24",
+        "y": 7.1,
+        "y_low": null,
+        "y_high": null
+       }
+      ]
+     },
+     {
+      "name": "Reactor 3",
+      "x_axis": "x1",
+      "y_axis": "y1",
+      "points": [
+       {
+        "x": "0",
+        "y": 2,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "1",
+        "y": 2.2,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "2",
+        "y": 2.8,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "3",
+        "y": 3.6,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "4",
+        "y": 4.4,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "5",
+        "y": 5.1,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "6",
+        "y": 5.7,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "7",
+        "y": 6.2,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "8",
+        "y": 6.6,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "9",
+        "y": 6.95,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "10",
+        "y": 7.2,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "12",
+        "y": 7.55,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "14",
+        "y": 7.8,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "16",
+        "y": 7.95,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "18",
+        "y": 8.05,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "20",
+        "y": 8.15,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "22",
+        "y": 8.2,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "24",
+        "y": 8.25,
+        "y_low": null,
+        "y_high": null
+       }
+      ]
+     }
+    ],
+    "read_precision": "\u00b10.1 g/L on y, \u00b10.3 h on x",
+    "notes": "Continuous curves without markers, sampled by eye. Reactors 1 and 3 overlap around t\u224815\u201316 h, where Reactor 3 crosses above Reactor 1. Reactors 2 and 3 cross near t\u22485 h. Values near the upper plateau are approximate."
+   }
+  ]
+ },
+ "verdict": {
+  "status": "pass",
+  "reason": "All three reactor series sampled on the right sit on the original curves within tolerance. The axes match: both are linear, with time from 0 to 24 h and biomass from 0 to 10 g/L. Key features match: Reactor 1 levels off near 8, Reactor 2 peaks at about 7.35 near t=16.5 and dips to about 6.85 near t=22, and Reactor 3 has the S-shaped start, crosses Reactor 2 near t=5 and ends at about 8.2. No series are missing or extra, and neither plot has error bars.",
+  "errors": []
+ },
+ "status": "pass"
+}

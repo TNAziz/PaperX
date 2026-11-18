@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+uv.lock.bak
+
+# Papers and anything derived from them stay out of this public repository:
+# publisher PDFs, extracted text, figure crops, re-plots and datasets.
+*.pdf
+validation papers/
+datasets/
+sample_output/
+sandbox_archive/
+paperx-archive/
+
+# Machine-local logs and caches
+*.log

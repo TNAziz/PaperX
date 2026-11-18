@@ -1,0 +1,172 @@
+{
+ "steps": [
+  {
+   "round": 0,
+   "check": "pass",
+   "reason": "Both series (UV/H2O2 and UV only) have 8 points at 0, 2, 4, 8, 12, 24, 36, 48 h, with values matching within tolerance (e.g., UV/H2O2 ~850 to ~4.3; UV only ~600 to ~56). The axes match: time is linear 0-50 h and concentration is log 1-1000. Neither plot has error bars, and no series or points are missing or extra.",
+   "errors": []
+  }
+ ],
+ "classification": {
+  "kind": "chart",
+  "chart_types": [
+   "line"
+  ],
+  "n_panels": 1,
+  "extractable": true,
+  "reason": "This is a single-panel line chart with markers. It plots concentration (\u00b5g/L) on a log y-axis from 10^0 to 10^3 against time (h) on a linear x-axis from 0 to 50. There are two series, UV/H2O2 and UV only. Both axes are labeled and have tick marks, so the data values can be read."
+ },
+ "data": {
+  "panels": [
+   {
+    "panel": "single",
+    "title": "Degradation of the target compound under two treatments",
+    "chart_type": "line_scatter",
+    "axes": [
+     {
+      "id": "x1",
+      "direction": "x",
+      "position": "bottom",
+      "label": "Time",
+      "unit": "h",
+      "scale": "linear",
+      "min": 0,
+      "max": 50,
+      "inverted": false
+     },
+     {
+      "id": "y1",
+      "direction": "y",
+      "position": "left",
+      "label": "Concentration",
+      "unit": "\u00b5g/L",
+      "scale": "log",
+      "min": 1,
+      "max": 1000,
+      "inverted": false
+     }
+    ],
+    "series": [
+     {
+      "name": "UV/H2O2",
+      "x_axis": "x1",
+      "y_axis": "y1",
+      "points": [
+       {
+        "x": "0",
+        "y": 835,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "2",
+        "y": 686,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "4",
+        "y": 552,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "8",
+        "y": 352,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "12",
+        "y": 225,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "24",
+        "y": 60.4,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "36",
+        "y": 16,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "48",
+        "y": 4.3,
+        "y_low": null,
+        "y_high": null
+       }
+      ]
+     },
+     {
+      "name": "UV only",
+      "x_axis": "x1",
+      "y_axis": "y1",
+      "points": [
+       {
+        "x": "0",
+        "y": 604,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "2",
+        "y": 562,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "4",
+        "y": 505,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "8",
+        "y": 422,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "12",
+        "y": 340,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "24",
+        "y": 191,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "36",
+        "y": 102,
+        "y_low": null,
+        "y_high": null
+       },
+       {
+        "x": "48",
+        "y": 56,
+        "y_low": null,
+        "y_high": null
+       }
+      ]
+     }
+    ],
+    "read_precision": "about \u00b15% in y (log scale, \u00b10.02 decade); \u00b10.3 h in x",
+    "notes": "Log y axis runs from 1 to 1000. At t = 0\u20134 h the markers of the two series sit close together and partly overlap, so these early values are less certain. There are no error bars."
+   }
+  ]
+ },
+ "verdict": {
+  "status": "pass",
+  "reason": "Both series (UV/H2O2 and UV only) have 8 points at 0, 2, 4, 8, 12, 24, 36, 48 h, with values matching within tolerance (e.g., UV/H2O2 ~850 to ~4.3; UV only ~600 to ~56). The axes match: time is linear 0-50 h and concentration is log 1-1000. Neither plot has error bars, and no series or points are missing or extra.",
+  "errors": []
+ },
+ "status": "pass"
+}

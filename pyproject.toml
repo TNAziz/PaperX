@@ -1,0 +1,27 @@
+[project]
+name = "paperx"
+version = "0.1.0"
+description = "Turn technical paper PDFs into an archived, verified, searchable record."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pypdfium2>=4.30",   # PDF rendering and text (Apache-2.0/BSD; avoids PyMuPDF's AGPL)
+    "pillow>=10",
+    "httpx>=0.27",
+    "rapidfuzz>=3.9",
+    "anthropic>=0.40",
+    "matplotlib>=3.8",  # re-plotting extracted figure data for verification
+]
+
+[project.scripts]
+paperx = "paperx.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/paperx"]

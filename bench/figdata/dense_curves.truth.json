@@ -1,0 +1,33 @@
+{
+ "caption": "Figure 7. Biomass growth in three reactors.",
+ "panels": [
+  {
+   "y_scale": "linear",
+   "y_span": [
+    0,
+    10
+   ],
+   "x_span": [
+    0,
+    24
+   ],
+   "series": [
+    {
+     "name": "Reactor 1",
+     "kind": "curve",
+     "fn": "dense:Reactor 1"
+    },
+    {
+     "name": "Reactor 2",
+     "kind": "curve",
+     "fn": "dense:Reactor 2"
+    },
+    {
+     "name": "Reactor 3",
+     "kind": "curve",
+     "fn": "dense:Reactor 3"
+    }
+   ]
+  }
+ ]
+}
